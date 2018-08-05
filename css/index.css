@@ -1,0 +1,54 @@
+@import url(base.css);
+a{
+	text-decoration:none;
+}
+.login_page{
+	position:absolute;
+	left:0;
+	bottom:0;
+	right:0;
+	top:0;
+/*	background: red;*/
+}
+.login_page img{
+	display: block;
+	width: 3.12rem;
+	height: 3.12rem;
+	margin: 1.43rem auto 0;
+}
+.login_page span{
+	display: block;
+	height: 0.38rem;
+	width: 100%;
+	font-size: 0.26rem;
+	color:#9d9d9d;
+	line-height: 0.38rem;
+	text-align: center;
+	font-family: San Francisco Display;
+	margin-bottom: 3.85rem;
+}
+.login_page div{
+	width: 4.69rem;
+	height: 0.58rem;
+	border-radius:0.35rem;
+	font-size: 0.22rem;
+	color: #fff;
+	background:-webkit-linear-gradient(left,#3e9dff,#41c2ff);
+	background:-moz-linear-gradient(left,#3e9dff,#41c2ff);
+	background:-ms-linear-gradient(left,#3e9dff,#41c2ff);
+	background:-o-linear-gradient(left,#3e9dff,#41c2ff);
+	background:linear-gradient(left,#3e9dff,#41c2ff);
+	line-height:0.58rem;
+	text-align: center;
+	margin:0 auto 0.39rem;
+	box-shadow:0 0.3rem 0.3rem rgba(0,0,0,0.1);
+}
+#login_page1{
+	background:-webkit-linear-gradient(left,#33d074,#33d14d);
+	background:-moz-linear-gradient(left,#33d074,#33d14d);
+	background:-ms-linear-gradient(left,#33d074,#33d14d);
+	background:-o-linear-gradient(left,#33d074,#33d14d);
+	background:linear-gradient(left,#33d074,#33d14d);
+	line-height:0.58rem;
+	box-shadow:0 0.3rem 0.3rem rgba(0,0,0,0.1);
+}

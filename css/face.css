@@ -1,0 +1,66 @@
+@import url(base.css);
+.face{
+	position:absolute;
+	left:0;
+	bottom:0;
+	right:0;
+	top:0;
+	background: #ededed;
+}
+.face1{
+	width: 4.8rem;
+	height: 3.1rem;
+	background: #ffffff;
+	margin: 5.13rem auto 0;
+	border-radius: 0.35rem;
+	overflow:hidden;
+	box-shadow:0 0rem 0.3rem rgba(0,0,0,0.1);
+	position:relative;
+}
+.face1 img{
+	display:block;
+	width: 1.17rem;
+	height: 1.01rem;
+	margin:0.27rem auto 0.15rem;
+	/*background: yellow; */
+}
+.face1 span{
+	display:block;
+	width: 100%
+	height:0.64rem;
+	font-size: 0.32rem;
+	line-height: 0.64rem;
+	text-align: center;
+	color: #989898;
+}
+.face2{
+	width: 1.24rem;
+	height: 0.56rem;
+	background:-webkit-linear-gradient(left,#33d074,#33d14d);
+	background:-moz-linear-gradient(left,#33d074,#33d14d);
+	background:-ms-linear-gradient(left,#33d074,#33d14d);
+	background:-o-linear-gradient(left,#33d074,#33d14d);
+	background:linear-gradient(left,#33d074,#33d14d);
+	box-shadow:0 0.2rem 0.3rem rgba(170,255,186,1);
+	border-radius:0.35rem;
+	font-size: 0.18rem;
+	color: #fff;
+	line-height:0.56rem;
+	text-align: center;
+	position:absolute;
+	left:0.78rem;
+	bottom:0.34rem;
+}
+.face3{
+	width: 1.24rem;
+	height: 0.56rem;
+	background: #f2f2f2;
+	border-radius:0.35rem;
+	font-size: 0.18rem;
+	color: #d4d5d3;
+	line-height:0.56rem;
+	text-align: center;
+	position:absolute;
+	right:0.78rem;
+	bottom:0.34rem;
+}
